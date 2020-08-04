@@ -1,0 +1,137 @@
+PRDCZ = "Voxels/WEAPONS/BFGS/BLACKHOLE/DCANA.kvx"{} //BLACK HOLE GENERATOR
+SHTCA = "Voxels/WEAPONS/SHOTGUN/SHTCA0.kvx"{Scale = 0.5} //Shotgun
+//----------------------------------------------------Shotgun Upgrade
+9SMUA = "Voxels/UPGRADES/SHOTGUN/9SMUA.kvx"{Scale = 0.5}
+9SMUA = "Voxels/UPGRADES/SHOTGUN/9SMUA.kvx"{Scale = 0.5}
+9SMUB = "Voxels/UPGRADES/SHOTGUN/9SMUE.kvx"{Scale = 0.5}
+9SMUC = "Voxels/UPGRADES/SHOTGUN/9SMUE.kvx"{Scale = 0.5}
+9SMUD = "Voxels/UPGRADES/SHOTGUN/9SMUE.kvx"{Scale = 0.5}
+9SMUE = "Voxels/UPGRADES/SHOTGUN/9SMUE.kvx"{Scale = 0.5}
+//------------------------------------------------------Quad Shotgun
+QSGSA = "Voxels/UPGRADES/SSG/QSGSD.kvx"{}
+QSGSB = "Voxels/UPGRADES/SSG/QSGSD.kvx"{}
+QSGSC = "Voxels/UPGRADES/SSG/QSGSD.kvx"{}
+QSGSD = "Voxels/UPGRADES/SSG/QSGSD.kvx"{}
+//------------------------------------------------------Minigun Upgrade
+8GUNA = "Voxels/UPGRADES/MINIGUN/8GUNA.kvx"{scale = 0.5}
+8GUNB = "Voxels/UPGRADES/MINIGUN/8GUNA.kvx"{scale = 0.5}
+8GUNC = "Voxels/UPGRADES/MINIGUN/8GUNA.kvx"{scale = 0.5}
+8GUND = "Voxels/UPGRADES/MINIGUN/8GUNA.kvx"{scale = 0.5}
+8GUNE = "Voxels/UPGRADES/MINIGUN/8GUNA.kvx"{scale = 0.5}
+//--------------------------------------BFG MKIV GUARD MODE SHIELD PANEL
+SHIEA = "Voxels/WEAPONS/BFGS/MKIV/SHIEA.kvx"{AngleOffset = 90}
+//------------------------------------------------------Chain_Saw
+CSAWA = "Voxels/WEAPONS/chainsaw/CSAWA.kvx"{Scale = 0.5}
+//------------------------------------------------------demon rifle
+HRPUA="Voxels/WEAPONS/Demon rifle/HRPUA.kvx"{
+	Spin = 10
+	Scale = 0.5
+}
+//---------------------------------------------------railgun
+SRCGA="Voxels/WEAPONS/Railgun/SRCGA.kvx"{SCALE = 1.0}
+//---------------------------------------------------freeze ray
+FRPKA="Voxels/WEAPONS/Freezer/FRPKA.kvx"{SCALE=0.5}
+//-------------------------------------------------ST Grenade Launcher
+GLAPA="Voxels/WEAPONS/ST GL/GLAPA.kvx"{SCALE = 0.5}
+//-------------------------------------------------mg42 ByDooMGuy5th
+HBUSD="Voxels/WEAPONS/MG42/HBUSD.kvx"{Scale = 2.0}
+//-------------------------------------------------MP40 2.0
+MP40I="Voxels/WEAPONS/MP40/MP40I.kvx"{SCALE = 0.5}
+//---------------------------------------------------PISTOL 2.0 REDUX
+DEGTA="Voxels/WEAPONS/PISTOL/DEGTA.kvx"{Scale = 0.25}
+//--------------------------------------------------GRENADE 2.0 REDUX
+PGRND="Voxels/ITEMS/grenade/PGRND.kvx"{Scale = 0.25}
+//--------------------------------------------------DMR 3.0
+RIFLA = "Voxels/WEAPONS/DMR/RIFLA.kvx"{scale = 0.25}
+//--------------------------------------------------DMR UGL UPGRADE
+RWGLA = "Voxels/UPGRADES/DMR/RWGLA.kvx"{
+scale = 0.25
+SPIN = 90
+}
+RWGLB = "Voxels/UPGRADES/DMR/RWGLA.kvx"{
+scale = 0.25
+SPIN = 90
+}
+RWGLC = "Voxels/UPGRADES/DMR/RWGLA.kvx"{
+scale = 0.25
+SPIN = 90
+}
+RWGLD = "Voxels/UPGRADES/DMR/RWGLA.kvx"{
+scale = 0.25
+SPIN = 90
+}
+RWGLE = "Voxels/UPGRADES/DMR/RWGLA.kvx"{
+scale = 0.25
+SPIN = 90
+}
+//--------------------------------------------------------REVOLVER 2.0
+RVICA = "Voxels/WEAPONS/Revolver/RVICA.kvx"{scale = 0.25}
+//--------------------------------------------------------SSG 2.0
+SGN2A = "Voxels/WEAPONS/SSG/SGN2A.kvx" {SCALE = 0.5}
+//--------------------------------------------------------BD CLASS SSG
+SG43A = "Voxels/weapons/bdssg/sg43a.kvx" {Scale = 0.25}
+//--------------------------------------------------------BD CLASS PLASMA
+41ASA = "Voxels/weapons/bdplasma/41ASA.kvx" {Scale = 0.5}
+//--------------------------------------------------------BD CLASS RIFLE
+R1FLA = "Voxels/weapons/BDRIFLE/R1FLA.KVX"{scale = 0.25}
+//--------------------------------------------------------UNKNOWN
+DEPIA = "Voxels/WEAPONS/PISTOL/DEGTA.kvx"{Scale = 0.25}
+//--------------------------------------------------------M2 PLASMA RIFLE 2.0
+M2PRA = "Voxels/WEAPONS/PLASMA GUN/MARK II/M2PRA.KVX"{SCALE = 0.5}
+//--------------------------------------------------------M2 LIGHTNING UPGRADE
+M2PRB = "Voxels/WEAPONS/PLASMA GUN/MARK II/M2PRB.KVX"
+{
+SCALE = 0.5
+SPIN = 90
+}
+M2PRC = "Voxels/WEAPONS/PLASMA GUN/MARK II/M2PRB.KVX"
+{
+SCALE = 0.5
+SPIN = 90
+}
+M2PRD = "Voxels/WEAPONS/PLASMA GUN/MARK II/M2PRB.KVX"
+{
+SCALE = 0.5
+SPIN = 90
+}
+M2PRE = "Voxels/WEAPONS/PLASMA GUN/MARK II/M2PRB.KVX"
+{
+SCALE = 0.5
+SPIN = 90
+}
+M2PRF = "Voxels/WEAPONS/PLASMA GUN/MARK II/M2PRB.KVX"
+{
+SCALE = 0.5
+SPIN = 90
+}
+
+AXE0A = "VOXELS/WEAPONS/AXE/AXE0A.KVX"{
+	SCALE = 0.5
+	ANGLEOFFSET = 270
+} //AXE
+AXE0B = "VOXELS/WEAPONS/AXE/AXE0B.KVX"{
+	SCALE = 0.5
+	ANGLEOFFSET = 270
+} //AXE
+AXE0C = "VOXELS/WEAPONS/AXE/AXE0C.KVX"{
+	SCALE = 0.5
+	ANGLEOFFSET = 270
+} //AXE
+AXE0D = "VOXELS/WEAPONS/AXE/AXE0D.KVX"{
+	SCALE = 0.5
+	ANGLEOFFSET = 270
+} //AXE
+UNHDA = "Voxels/UPGRADES/Unmaker/UNHDE.KVX"{SCALE = 0.5}//Unmaker *base model by ST0PxistingNOW
+UNHDB = "Voxels/UPGRADES/Unmaker/UNHDE.KVX"{SCALE = 0.5}
+UNHDC = "Voxels/UPGRADES/Unmaker/UNHDE.KVX"{SCALE = 0.5}
+UNHDD = "Voxels/UPGRADES/Unmaker/UNHDE.KVX"{SCALE = 0.5}
+UNHDE = "Voxels/UPGRADES/Unmaker/UNHDE.KVX"{SCALE = 0.5}
+//--------------------------------------------------------VANILLA STUFF
+0SAWZ = "Voxels/WEAPONS/chainsaw/0SAWZ.kvx"{Scale = 0.5}//SAW
+0EBFA = "Voxels/WEAPONS/Traditional/0EBFA.kvx"{SCALE = 0.5}//BFG
+0EGTA = "Voxels/WEAPONS/Traditional/0EGTA.kvx"//CHAINGUN
+0ERLA = "Voxels/WEAPONS/Traditional/0ERLA.kvx"//ROCKET LAUNCHER
+0ESGA = "Voxels/WEAPONS/Traditional/0ESGA.kvx"{SCALE = 0.5}//SHOTGUN dummy line
+0ESGA = "Voxels/WEAPONS/Traditional/0ESGA.kvx"{SCALE = 0.5}//SHOTGUN
+0ESSA = "Voxels/WEAPONS/Traditional/0ESSA.kvx"//SSG
+0P1LA = "Voxels/WEAPONS/Traditional/0P1LA.kvx"{SCALE = 0.5}//PLASMA

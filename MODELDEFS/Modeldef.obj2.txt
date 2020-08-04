@@ -1,0 +1,422 @@
+Model BlueKeycard
+{
+	Path "Models/OBJ"
+	Model 0 "BKEYA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BKEY A 0 0
+}
+Model BlueKeycard
+{
+	Path "Models/OBJ"
+	Model 0 "BKEYB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BKEY B 0 0
+}
+Model RedKeycard
+{
+	Path "Models/OBJ"
+	Model 0 "RKEYA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RKEY A 0 0
+}
+Model RedKeycard
+{
+	Path "Models/OBJ"
+	Model 0 "RKEYB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RKEY B 0 0
+}
+Model YellowKeycard
+{
+	Path "Models/OBJ"
+	Model 0 "YKEYA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex YKEY A 0 0
+}
+Model YellowKeycard
+{
+	Path "Models/OBJ"
+	Model 0 "YKEYB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex YKEY B 0 0
+}
+Model BlueSkullkey
+{
+	Path "Models/OBJ"
+	Model 0 "BSKUA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BSKU A 0 0
+}
+Model BlueSkullkey
+{
+	Path "Models/OBJ"
+	Model 0 "BSKUA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BSKU B 0 0
+}
+Model RedSkullkey
+{
+	Path "Models/OBJ"
+	Model 0 "RSKUA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex RSKU A 0 0
+}
+Model RedSkullkey
+{
+	Path "Models/OBJ"
+	Model 0 "RSKUA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex RSKU B 0 0
+}
+Model YellowSkullkey
+{
+	Path "Models/OBJ"
+	Model 0 "YSKUA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex YSKU A 0 0
+}
+Model YellowSkullkey
+{
+	Path "Models/OBJ"
+	Model 0 "YSKUA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Keys.png"
+	SCALE 0.125 0.125 0.125
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex YSKU B 0 0
+}
+Model TheEye
+{
+	Path "Models/OBJ"
+	Model 0 "EYEVA0.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.2 1.0 1.0
+	ANGLEOFFSET 90
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex EYEV A 0 0
+}
+
+Model TheEye
+{
+	Path "Models/OBJ"
+	Model 0 "EYEVB0.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.2 1.0 1.0
+	ANGLEOFFSET 90
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex EYEV B 0 0
+}
+
+Model TheEye
+{
+	Path "Models/OBJ"
+	Model 0 "EYEVC0.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.2 1.0 1.0
+	ANGLEOFFSET 90
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex EYEV C 0 0
+}
+Model RageSphere
+{
+	Path "Models/OBJ"
+	Model 0 "BLDSD.obj"
+	Skin 0 "BLDSD.pal.png"
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BLDS B 0 0
+}
+
+Model HealthPlus
+{
+	Path "Models/OBJ"
+	Model 0 "BON1A.obj"
+	Skin 0 "BON1A.pal.png"
+	SCALE 0.25 0.25 0.25
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON1 A 0 0	
+}
+Model HealthPlus
+{
+	Path "Models/OBJ"
+	Model 0 "BON1B.obj"
+	Skin 0 "BON1B.pal.png"
+	SCALE 0.25 0.25 0.25
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON1 B 0 0
+}
+Model HealthPlus
+{
+	Path "Models/OBJ"
+	Model 0 "BON1C.obj"
+	Skin 0 "BON1C.pal.png"
+	SCALE 0.25 0.25 0.25
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON1 C 0 0
+}
+Model HealthPlus
+{
+	Path "Models/OBJ"
+	Model 0 "BON1D.obj"
+	Skin 0 "BON1D.pal.png"
+	SCALE 0.25 0.25 0.25
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON1 D 0 0
+}
+Model ArmorShard
+{
+	Path "Models/OBJ"
+	Model 0 "BON2A.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.125 0.125 0.125
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON2 A 0 0
+}
+Model ArmorShard
+{
+	Path "Models/OBJ"
+	Model 0 "BON2B.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.125 0.125 0.125
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON2 B 0 0
+}
+Model ArmorShard
+{
+	Path "Models/OBJ"
+	Model 0 "BON2C.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.125 0.125 0.125
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON2 C 0 0
+}
+Model ArmorShard
+{
+	Path "Models/OBJ"
+	Model 0 "BON2D.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	SCALE 0.125 0.125 0.125
+	ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex BON2 D 0 0
+}
+Model RevenantBones
+{
+	Path "Models/OBJ"
+	Model 0 "BNP1A.obj"
+	Skin 0 "BNP1A.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BNP1 A 0 0
+}
+Model BDPistol
+{
+	Path "Models/OBJ"
+	Model 0 "DEGTA.obj"
+	Skin 0 "DEGTA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DEGT A 0 0
+}
+
+Model Rifle
+{
+	Path "Models/OBJ/"
+	Model 0 "RIFLA.obj"
+	//Path "GlobalPals"
+	Skin 0 "RIFLA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RIFL A 0 0
+}
+
+Model RifleUpgrade
+{
+	Path "Models/OBJ/"
+	Model 0 "RWGLA.obj"
+	//Path "GlobalPals"
+	Skin 0 "RIFLA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RWGL A 0 0
+}
+
+Model RifleUpgrade
+{
+	Path "Models/OBJ/"
+	Model 0 "RWGLA.obj"
+	//Path "GlobalPals"
+	Skin 0 "RIFLA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RWGL B 0 0
+}
+
+Model RifleUpgrade
+{
+	Path "Models/OBJ/"
+	Model 0 "RWGLA.obj"
+	//Path "GlobalPals"
+	Skin 0 "RIFLA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RWGL C 0 0
+}
+
+Model RifleUpgrade
+{
+	Path "Models/OBJ/"
+	Model 0 "RWGLA.obj"
+	//Path "GlobalPals"
+	Skin 0 "RIFLA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RWGL D 0 0
+}
+
+Model RifleUpgrade
+{
+	Path "Models/OBJ/"
+	Model 0 "RWGLA.obj"
+	//Path "GlobalPals"
+	Skin 0 "RIFLA.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex RWGL E 0 0
+}

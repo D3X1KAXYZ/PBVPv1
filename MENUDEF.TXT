@@ -1,0 +1,74 @@
+OptionMenu "PBVPOPTIONS"
+{
+	/*Statictextcentered*/title "PB VOXEL Settings"
+	StaticText "Version: 060919v1(Patch:05-07-20)"
+	Submenu "Credits (updated: 05-07-20)", "PBVPCredits"
+	OPTION "Enable VOXELS", "R_DRAWVOXELS", "yesno"
+	StaticText ""
+	Statictext "Quick Toggles (Note: may affect some models too)"
+	Control "All Voxels", "TOGGLEVOXS"
+	Control "BD Decor Voxels", "TOGGLEDECOR"
+	Control "Gore Voxels", "TOGGLEGORE"
+	//Statictext "Map enhancement Voxels (coming soon)"//, "TOGGLEBDEC"
+	statictext ""
+	Command "Enable BD VOXEL Decor", "BDVPON"
+	Command "Disable BD VOXEL Decor", "BDVPOFF"
+}
+
+Optionmenu "PBVPCredits"
+{
+	Title "PBVP TEAM"
+	STATICTEXT "For full list of credits, see PBVPCredits.txt inside the pk3"
+	StaticText ""
+	StaticText "-----LEAD DEVELOPER-----"
+	Statictext "D3X1K AXYZ"
+	STATICTEXT ""
+	STATICTEXT "-----VOXEL DEVELOPERS-----"
+	STATICTEXT "UAC9000"
+	STATICTEXT "popguy12"
+	STATICTEXT "D3X1K AXYZ"
+	STATICTEXT "DooMGuy_5th***"
+	STATICTEXT ""
+	STATICTEXT "-----MODEL DEVELOPERS-----"
+	STATICTEXT "H3LLW4LK3R(ST0PxistingN0W)"
+	STATICTEXT "UAC9000"
+	STATICTEXT ""
+	STATICTEXT "-----BUG TESTERS-----"
+	STATICTEXT "[FedorableJew] SP4NK"
+	STATICTEXT "TERMINAL*"
+	STATICTEXT "Player1up**"
+	STATICTEXT "GOLDEN WARRIOR72"
+	STATICTEXT "scaryred24***"
+	STATICTEXT "Farscryer***"
+	STATICTEXT ""
+	STATICTEXT "[*] former member: life issues"
+	STATICTEXT "[**] former member: pc issues"
+	STATICTEXT "[***] former member: Other"
+	STATICTEXT ""
+	STATICTEXT "-----SPECIAL THANKS-----"
+	STATICTEXT "The_Individualist > KVX to OBJ Convertion"
+	STATICTEXT "Etto > ACS Help"
+	STATICTEXT "Yamil > GL definitions, resources, and suggestions"
+	STATICTEXT "Zedek the Plague Doc. > Model Animation Mentor"
+}
+
+OptionMenu "WTF"
+{
+	TITLE "Why is this an option?"
+	StaticText ""
+	StaticText "There are 3 reasons for this option:"
+	StaticText "1: Troubleshooting no voxels"
+	StaticText "2: Performance Issues (lag)"
+	//StaticText "3: A SUPRISE FOR THE FUTURE!"
+}
+
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "PB Voxel options",				"PBVPOPTIONS"
+}
+
+Optionvalue "yesno"
+{
+	0, "no"
+	1, "yes"
+}

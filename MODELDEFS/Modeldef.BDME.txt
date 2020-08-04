@@ -1,0 +1,43 @@
+//depreciated
+/*
+Model Super_Grenade_Launcher
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MGLNA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MGLN A 0 0
+}
+*/
+/*
+Model BDECChairWoodVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CHR1A.obj"
+	Skin 0 "CHR1A.pal.png"
+	SCALE 0.5 0.5 0.5
+	ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CHR1 A 0 0
+}
+Model BDECChairModernVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CHR2A.obj"
+	Skin 0 "CHR2A.pal.png"
+	SCALE 0.5 0.5 0.5
+	ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CHR2 A 0 0
+}
+*/

@@ -1,0 +1,30 @@
+JNK5A = "Voxels/gore/JNK5A.kvx"{Scale = 0.125}//JNK5A 2.0 (1.0 made by UAC9000)
+JNK6A = "Voxels/gore/JNK6A.kvx"
+JNK6B = "Voxels/gore/JNK6B.kvx"
+JNK6C = "Voxels/gore/JNK6C.kvx"
+JNK6D = "Voxels/gore/JNK6D.kvx"
+VME1A = "Voxels/gore/VME1A.kvx"
+VME1B = "Voxels/gore/VME1B.kvx"
+VME1C = "Voxels/gore/VME1C.kvx"
+VME1D = "Voxels/gore/VME1D.kvx"
+VME1E = "Voxels/gore/VME1E.kvx"
+VME1F = "Voxels/gore/VME1F.kvx"
+VME1G = "Voxels/gore/VME1G.kvx"
+VME1H = "Voxels/gore/VME1H.kvx"
+VME2E = "Voxels/gore/VME2E.kvx"
+VME2F = "Voxels/gore/VME2F.kvx"
+VME3A = "Voxels/gore/VME3A.kvx"
+VME3C = "Voxels/gore/VME3C.kvx"
+VME3E = "Voxels/gore/VME3E.kvx"
+VME3G = "Voxels/gore/VME3G.kvx"
+VME3I = "Voxels/gore/VME3I.kvx"
+VME8A = "Voxels/gore/VME8A.kvx"
+VME8B = "Voxels/gore/VME8B.kvx"
+VTETA = "Voxels/gore/VTETA.kvx"
+VTETB = "Voxels/gore/VTETB.kvx"
+VTETC = "Voxels/gore/VTETC.kvx"
+VTETD = "Voxels/gore/VTETD.kvx"
+VEG1Y = "Voxels/gore/VEG1Y.kvx"{SCALE = 0.125}
+VEG2Y = "Voxels/gore/VEG2Y.kvx"{SCALE = 0.125}
+VEGQY = "Voxels/gore/VEGQY.kvx"{SCALE = 0.125}
+BNP1A="Voxels/gore/BNP1A.kvx"{SCALE = 0.25}//REVENANT BONE

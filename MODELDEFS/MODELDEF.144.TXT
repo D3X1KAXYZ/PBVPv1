@@ -1,0 +1,312 @@
+/*Global references  0,T,t,c,c,c,0,0,0,0,0
+//Path "Models/OBJ/TheIndividualist"
+//Path "GlobalPals"
+//"Global.DooM.png" <true Doom pallete
+//"Doompal.png" <false
+//"Global.pal0.png" <MV pal 0
+//"Global.pal1.png" <MV pal 1
+Model HasteSphere
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEGAA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEGA A 0 0
+}*/
+Model HMG
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HMGNA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex NLMG F 0 0
+}
+
+Model FreezerRifle
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "FRPKA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex FRPK A 0 0
+}
+/*
+Model Grenade_Launcher
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "GLAPA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex GLAP A 0 0
+}
+*/
+Model GTechPillar1
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "GTECA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex GTEC A 0 0
+}
+
+Model GTechPillar1
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "GTECB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex GTEC B 0 0
+}
+
+Model HasteSphere
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HASTA.obj"
+	//Path "GlobalPals"
+	Skin 0 "HASTC.pal.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex HAST A 0 0
+}
+
+Model HasteSphere
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HASTB.obj"
+	//Path "GlobalPals"
+	Skin 0 "HASTC.pal.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex HAST B 0 0
+}
+
+Model HasteSphere
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HASTC.obj"
+	//Path "GlobalPals"
+	Skin 0 "HASTC.pal.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex HAST C 0 0
+}
+
+Model HitlersBuzzsaw
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HBUSD.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex HBUS D 0 0
+}
+
+Model DeadHangTNoBrain
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HDB6A.obj"
+	//Path "GlobalPals"
+	Skin 0 "HDB6A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex HDB6 A 0 0
+}
+
+Model NewRadSuit
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HEVSA.obj"
+	//Path "GlobalPals"
+	Skin 0 "HEVSA.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex SUIT A 0 0
+}
+
+/*Model NewRadSuit
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "HEVUA.obj"
+	//Path "GlobalPals"
+	Skin 0 "HEVUA.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex SUIT A 0 0
+}*/
+
+Model EnergySphere_Vox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEGAA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 16.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEGA A 0 0
+}
+
+Model EnergySphere_Vox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEGAB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 16.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEGA B 0 0
+}
+
+Model EnergySphere_Vox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEGAC.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 16.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEGA C 0 0
+}
+
+Model EnergySphere_Vox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEGAD.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	ZOffset 16.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEGA D 0 0
+}
+
+Model Mini_Gun
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MGUNA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MGUN A 0 0
+}
+
+Model SecretWeapon_MP40
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MP40I.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	SCALE 0.5 0.5 0.5
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MP40 I 0 0
+}
+
+Model BulletCartridge
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MBLKA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	SCALE 0.2 0.2 0.2
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MBLK A 0 0
+}
+//EnergySphere_Vox: MEGA
+//HealthBackpack200: MBPK
+Model HealthBackpack200
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MBPKA.obj"
+	//Path "GlobalPals"
+	Skin 0 "MBPKA.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MBPK A 0 0
+}

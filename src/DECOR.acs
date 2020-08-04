@@ -1,0 +1,56 @@
+#include "zcommon.acs"
+
+Script "BDVP_TOGGLE" (VOID) NET
+{
+Thing_ChangeTID(0, 10501);
+if	(GetCvar("V5_DRAWDBVOX")!= 1) { SetActorState(0,"Vanilla", true); log(s:"Vanilla"); }
+}
+Script "BDVP_TOGGLESKULL" (VOID) NET
+{
+Thing_ChangeTID(0, 10502);
+if	(GetCvar("V5_DRAWDBVOX") != 1) { SetActorState(0,"Spawn2", true); log(s:"vanilla 2"); }
+}
+
+Script "BDVP_SWITCH" (VOID) NET
+{
+IF (GetCvar("V5_DRAWBDVOX")== 1)
+{
+SetCVar("V5_DRAWBDVOX", 0);
+Log(s:"VOXEL DECOR OFF"); 
+}
+ELSE 
+{
+SetCVar("V5_DRAWBDVOX", 1);
+Log(s:"VOXEL DECOR ON");
+}
+}
+
+Script "GORE_TOGGLE" (VOID) NET
+{
+Thing_ChangeTID(0, 10503);
+if	(GetCvar("V5_DRAWGOREVOX") != 1) { SetActorState(0,"Spawn2", true); log(s:"vanilla 2"); }
+}
+
+Script "GORE_SWITCH" (VOID) NET
+{
+IF (GetCvar("V5_DRAWGOREVOX") == 1)
+{
+SetCVar("V5_DRAWGOREVOX", 0);
+Log(s:"GORE VOXELS OFF"); 
+}
+ELSE 
+{
+SetCVar("V5_DRAWGOREVOX", 1);
+Log(s:"GORE VOXELS ON");
+}
+}
+
+Script "SENTRYUP" (VOID) NET
+{
+Thing_Changetid(0, 10504);
+}
+
+Script "FOLDINGSENTRY" (VOID) NET
+{
+Thing_Remove(10504);
+}

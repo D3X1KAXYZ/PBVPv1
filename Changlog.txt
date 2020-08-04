@@ -1,0 +1,245 @@
+
+
+INITIAL LIST
+
+==[VOXELS]==
+Currently, we are converting over to polymesh.
+With polymesh conversion, we can reduce lag, build larger models, and more.
+Does this mean this is no longer a voxel pack?
+No, not really.
+Sure its not using the voxel renderer, but all of our models are voxels.
+No smooth slopes, not odd angles, no textures.
+This is because all models are converted from voxels.
+...
+This is a mess.
+Its a mix of several voxel packs.
+All non PBVP voxels are placeholders.
+They will hopefully be replaced in the final build.
+Anything marked with as (redux) on ''this list'' is a modified voxel. 
+Anything marked with (#.1) is an "original redux"
+All weapons from "PB 3.0 Test build 1-21-18" have voxels.
+The following list may be missing some items due to a lack of commenting and labeling. My bad. 
+
+[PB WEAPONS]:
+Black Hole Generator 
+Shotgun
+Shotgun Upgrade
+Quad Shotgun
+Minigun Upgrade
+BFG MkIV Guard Mode Shield Panel
+Chain_Saw
+Demon Rifle
+Railgun
+Freeze Ray
+ST Grenade Launcher
+MG42
+MP40 (2.0)
+Pistol (2.1)
+Grenade (2.1)
+DMR (3.0)
+DMR UGL Upgrade
+Revolver (2.0)
+SSG (2.0)
+M2 Plasma Rifle (2.0)
+M2 Lightning Upgrade
+Axe
+Unmaker Upgrade
+
+[BD CLASS]:
+SSG
+Plasma
+Rifle
+BD Starting Pistol
+
+[VANILLA CLASS]
+Saw
+BFG
+Chaingun
+Rocket Launcher
+Shotgun
+Plasma
+
+[AMMO]:
+NORMALCLIPBOX
+Rocket
+NORMALBULLETKITBIG
+EMPTYCLIPMP40
+EMPTYCLIP
+NEWCLIP
+EMPTYCELL
+NEWCELL
+SMARTEXCAVATORCHARGEBOX
+SMARTSPECIALGRENADEBOX
+Shells
+2Shells
+NORMALBULLETKITBIG
+SMARTBULLETKITBIG
+SMARTBULLETKIT
+SMARTCLIPBOX
+NORMALCLIPBOXBIG
+SMARTCLIPBOXBIG
+NORMALSHELLBOX
+SMARTSHELLBOX
+Box Of Rockets
+NORMALCELLPACK
+SMARTCELLPACK
+BULLETCARTRIDGE
+Grenade Box
+UEC
+
+[MISC PICKUPS AND POWERUPS(LIST MAY BE OUTDATED)]:
+Sentry Box
+All Three Backpacks (Standard, Combat, Health)
+All 3 Armor Colors
+Computer Area Map (Redux)
+All 3 Keycards
+DoubleDamage Sphere
+Ragesphere
+Health And Armor Bonuses
+All Beacon Objects (Friendly, Enemy, Pickup)
+Light Emiting Visor
+All Smart And Normal Health Pickups
+Berserk (2.0)
+
+[GORE AND JUNK]:
+Zombie Feet
+Tooth
+Revenant Bone
+And More... (Not Really Important)
+
+[BDME/BDCE]:
+Dining Chair
+Office Chair
+Wood Table
+Alarm
+
+[DECOR]:
+
+[PBVP]:
+Broken Light
+Tall Red Torch (Redux)
+Tall Green Torch (Redux)
+Tall Blue Torch (Redux)
+GTEC Columb
+Explosive Barrels (2.0)
+
+[BDVP/ZDOOM VOXEL PACK]:
+All 3 Skull Keys
+Burning And Kicked Barrels
+Live Skull
+Candle
+Candelabra
+Short Torch
+Shell Casing
+Rifle Casings
+Switches (Unused)
+
+==[MODELS]==
+Due the strict nature of MODELDEF, this list is much neater and fully documented.
+I split the list by type and file.
+The format of this list for all OBJ models are as follows:
+Actor_name					NAME FRAMES	(notes)
+NAME is the sprite name being replaced by models.
+(A-) means that all frames are handled by the same model.
+(Filename.obj) means the model name does not match the sprite name.
+
+(?)
+Not sure whats with this one. 
+Sprite frame B is being handled by the model for frame D 
+Models A-C are not in the mod yet.
+Definitions for sprites A,C,and D are missing.
+Not sure what I was doing. 
+
+[MD3]
+SentryTurret
+SentryTripod
+HeavyMachinegun
+PlayerMech
+Mech
+MechBaseNotReal
+
+[OBJ1(OBJ)]
+SmartBulletKitBig			4M07 HI
+LightArmor					4RM1 ABC
+HeavyArmor					4RM2 ABC
+MediumArmor					4RM3 ABC
+Excavator					5DUN A
+HellishMissileLauncher		FATB D
+DragonBreathShellsUpgrade	DHEL ABCDE
+EmptyHMGDrum				DRM7 A
+EmptyASGDrum				DRM8 A
+EmptyLMGMag					DRM9 A
+EmptyCell					ECEL A
+EmptyClip					ECLI G
+EvilCandleVOX				EYEC A
+CandlestickVOX				CAND AB
+CandelabraVOX				CBRA AB
+NewCell						CELL ABCDE
+BDECChairWoodVOX			CHR1 A
+BDECChairModernVOX			CHR2 A
+NewClip						CLIP A
+EmptyClipMP40				CLP4 G
+CombatBackpack				CMPK ABCDEFG
+TallGreenColumn				COL1 A
+ShortGreenColumn			COL2 A
+TallRedColumn				COL3 A
+ShortRedColumn				COL4 A
+HeartColumn					COL5 AB
+AmmoSuply					BPAK A
+NormalRocketBox_SS			BR0K A
+SmartRocketBox				BR0K ABCDEFG
+BurningBarrel1				BURB ABC	(A-)
+
+[OBJ2]
+BlueKeycard					BKEY AB
+RedKeycard					RKEY AB
+YellowKeycard				YKEY AB
+BlueSkullkey				BSKU AB		(A-)
+RedSkullkey					RSKU AB		(A-)
+YellowSkullkey				YSKU AB		(A-)
+TheEye						EYEV ABC
+RageSphere					BLDS B		(?)
+HealthPlus					BON1 ABCD
+ArmorShard					BON2 ABCD
+RevenantBones				BNP1 A
+BDPistol					DEGT A
+Rifle						RIFL A
+RifleUpgrade				RWGL ABCDE	(A-)
+
+[OBJ3]
+ColumnVOX					COLU AB
+Chain_Saw					CSAW A
+BHGen						PRDC Z
+DoubleSphere_Vox			DDMG ABCD
+SmartExcavatorChargeBox		LH3G ABCDEFG
+TossedHellRifle				HRPU A
+XJunk5						JNK5 ABCD
+XJunk1						JNK6 ABCD
+Rocket_Launcher				LAUN A
+
+[OBJ4]
+DemonStrengthRune			DPRF ABC
+
+[OBJ5(144)]
+HMG							NLMG F	(HMGNA.obj)
+FreezerRifle				FRPK A
+Grenade_Launcher			GLAP A
+GTechPillar1				GTEC AB
+HasteSphere					HAST ABC
+HitlersBuzzsaw				HBUS D
+DeadHangTNoBrain			HDB6 A
+NewRadSuit					SUIT A
+EnergySphere_Vox			MEGA ABCD
+Super_Grenade_Launcher		MGLN A
+Mini_Gun					MGUN A
+SecretWeapon_MP40			MP40 I
+BulletCartridge				MBLK A
+HealthBackpack200			MBPK A
+
+[OBJ6(MEDI)]
+NormalMedikitGreen			MEDI A
+SmartMedikitGreen			MEDI ABCDEFG
+NormalMedikitGreen			MEDP A
+SmartMedikitGreen			MEDP ABCDEFG
+Stim5Green					MSTI A
+StimpackGreen				ST1M A

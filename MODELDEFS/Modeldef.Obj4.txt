@@ -1,0 +1,41 @@
+//obj
+//DemonStrengthRune by popguy12
+Model DemonStrengthRune
+{
+	Path "Models/OBJ"
+	Model 0 "DPRFA0.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex DPRF A 0 0
+}
+Model DemonStrengthRune
+{
+	Path "Models/OBJ"
+	Model 0 "DPRFB0.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex DPRF B 0 0
+}
+Model DemonStrengthRune
+{
+	Path "Models/OBJ"
+	Model 0 "DPRFC0.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	ROTATING
+	Rotation-speed 5
+	
+	Frameindex DPRF C 0 0
+}

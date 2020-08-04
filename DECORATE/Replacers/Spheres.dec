@@ -1,0 +1,20 @@
+ACTOR InvulnerabilitySphere_Vox : InvulnerabilitySphere_ replaces InvulnerabilitySphere
+{
+RenderStyle "Translucent"
+Alpha 0.9
+}
+ACTOR LifeSphere_Vox : LifeSphere Replaces SoulSphere
+{
+RenderStyle "Translucent"
+Alpha 0.9
+}
+ACTOR EnergySphere_Vox : EnergySphere Replaces Megasphere
+{
+RenderStyle "Translucent"
+Alpha 0.9
+}
+ACTOR DoubleSphere_Vox : DoubleSphere Replaces DoubleSphere
+{
+RenderStyle "Translucent"
+Alpha 0.9
+}

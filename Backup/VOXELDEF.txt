@@ -1,0 +1,595 @@
+//PRDCZ = "DCANA"{}
+/*start*//*
+BEACZ = "BEACZ"{
+	AngleOffset = 180
+}
+B3ACA = "BEACZ"{
+	AngleOffset = 0
+}
+B3ACB = "BEACZ"{
+	AngleOffset = 90
+}
+B3ACC = "BEACZ"{
+	AngleOffset = 180
+}
+B3ACD = "BEACZ"{
+	AngleOffset = 270
+}
+B3ACE = "BEACZ"{
+	AngleOffset = 0
+}
+BEACA = "BEACZ"{}
+BEACB = "BEACZ"{}
+/*end*//*
+/*start*//*
+MEDIA = "MEDIA"{
+	ANGLEOFFSET = 180
+}
+MEDPA = "MEDPA"{
+	ANGLEOFFSET = 180
+}
+ST1MA = "ST1MA"{
+	ANGLEOFFSET = 180
+}
+BON2A = "BON2A"{
+	ANGLEOFFSET = 180
+}
+BON2B = "BON2B"{
+	ANGLEOFFSET = 180
+}
+BON2C = "BON2C"{
+	ANGLEOFFSET = 180
+}
+BON2D = "BON2D"{
+	ANGLEOFFSET = 180
+}
+/*end*//*
+/*start*//*
+9SMUA = "9SMUE"{}
+9SMUB = "9SMUE"{}
+9SMUC = "9SMUE"{}
+9SMUD = "9SMUE"{}
+9SMUE = "9SMUE"{}
+/*end*//*
+/*start*//*
+QSGSA = "QSGSD"{}
+QSGSB = "QSGSD"{}
+QSGSC = "QSGSD"{}
+QSGSD = "QSGSD"{}
+/*end*//*
+/*start*//*
+8GUNA = "8GUNF"{}
+8GUNB = "8GUNF"{}
+8GUNC = "8GUNF"{}
+8GUND = "8GUNF"{}
+8GUNE = "8GUNF"{}
+/*end*//*
+SHIEA = "SHIEA"{
+	AngleOffset = 90
+}
+CLP4G = "CLP4G"{
+}
+ECLIG = "ECLIG"{
+	SCALE = 0.2
+}
+CLIPA = "CLIPA"{
+	SCALE = 0.1
+}
+ECELA = "ECELA"{
+	SCALE = 0.2
+}
+CELLA = "CELLA"{
+	SCALE = 0.2
+}
+CELLB = "CELLB"{
+	SCALE = 0.2
+}
+CELLC = "CELLC"{
+	SCALE = 0.2
+}
+CELLD = "CELLD"{
+	SCALE = 0.2
+}
+CELLE = "CELLE"{
+	SCALE = 0.2
+}
+LSBXA = "LSBXA"{
+	SCALE = 0.5
+}
+SHELA = "SHELA"{
+	SCALE = 0.2
+}
+AMOKA = "AMOKA"{
+	SCALE = 0.2
+}
+SBOXA = "SBOXA"{
+	SCALE = 0.5
+}
+/*start*//*
+YELPA = "YELPA"{
+	SCALE = 0.2
+}
+YELPB = "YELPB"{
+	SCALE = 0.2
+}
+YELPC = "YELPC"{
+	SCALE = 0.2
+}
+YELPD = "YELPD"{
+	SCALE = 0.2
+}
+/*end*//*
+MBLKA = "MBLKA"{
+	SCALE = 0.2
+}
+/*start*//*
+BLDSA = "BLDSA"{
+	SPIN = 10
+}
+BLDSB = "BLDSB"{
+	SPIN = 10
+}
+BLDSC = "BLDSC"{
+	SPIN = 10
+}
+BLDSD = "BLDSD"{
+	SPIN = 10
+}
+/*end*//*
+SENTD = "SENTD"{
+	AngleOffset = 270
+	//OverridePalette
+}
+/*start*//*
+DDMGA = "Voxels/ITEMS/SPHERES/DOUBLDAMAGE/1DMGA.kvx"{
+	SPIN = 1
+	Scale = 0.2
+}
+DDMGB = "Voxels/ITEMS/SPHERES/DOUBLDAMAGE/1DMGB.kvx"{
+	SPIN = 1
+	Scale = 0.2
+}
+DDMGC = "Voxels/ITEMS/SPHERES/DOUBLDAMAGE/1DMGC.kvx"{
+	SPIN = 1
+	Scale = 0.2
+}
+DDMGD = "Voxels/ITEMS/SPHERES/DOUBLDAMAGE/1DMGD.kvx"{
+	SPIN = 1
+	Scale = 0.2
+}
+/*end*//*
+4M0KA = "4M0KA"{
+	SCALE = 0.2
+}
+//Chain_Saw
+CSAWA = "CSAWA"{
+	Scale = 0.5
+}
+9TCKA="9TCKA"{
+	Scale = 0.2
+}
+100MB="100MB"{
+	Scale = 0.5
+}
+HRPUA="HRPUA"{
+	Spin = 10
+	Scale = 0.5
+}
+
+/*Start*//*
+//keycards Yy
+YKEYA="YKEYA"{
+	Scale = 0.1
+}
+YKEYB="YKEYB"{
+	Scale = 0.1
+}
+BKEYA="BKEYA"{
+	Scale = 0.1
+}
+BKEYB="BKEYB"{
+	Scale = 0.1
+}
+RKEYA="RKEYA"{
+	Scale = 0.1
+}
+RKEYB="RKEYB"{
+	Scale = 0.1
+}
+/*end*//*
+SRCGA="SRCGA"{
+	SCALE=0.2
+}
+FRPKA="FRPKA"{
+	SCALE=1.0
+}
+/* THE CODE BELOW THIS IS FROM BD_VOXEL_PATCH_3-2-1.PK3
+CREDIT FOR THE FOLLOWING ARE FOUND IN CREDITS_BDVP*//*
+//Blue Skull
+bskua= "bskua"
+{
+	Scale = 0.5
+	//droppedspin = 25
+	//placedspin = 25
+}
+
+bskub= "bskub"
+{
+	Scale = 0.5
+	//droppedspin = 25
+	//placedspin = 25
+}	
+
+//Red Skull
+rskua= "rskua"
+{
+	Scale = 0.5
+	//droppedspin = 25
+	//placedspin = 25
+}	
+
+rskub= "rskub"
+{
+	Scale = 0.5
+	//droppedspin = 25
+	//placedspin = 25
+}	
+
+//Yellow Skull
+yskua= "yskua"
+{
+	Scale = 0.5
+	//droppedspin = 25
+	//placedspin = 25
+}	
+
+yskub= "yskub"
+{
+	Scale = 0.5
+	//droppedspin = 25
+	//placedspin = 25
+}
+
+//----------------DECORATIONS---------------
+
+//Exploding Barrel
+bar1a = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1b = "bar1b"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1c = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1d = "bar1b"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1e = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1f = "bar1b"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1g = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1h = "bar1b"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1i = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1j = "bar1b"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1k = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1l = "bar1b"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+bar1m = "bar1a"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+//Burning Barrel
+burba = "burba"
+{
+	Scale = 0.5
+	AngleOffset = 45
+}
+
+//Kicked Barrel
+barkf = "barkf"
+{
+	Scale = 0.5
+}
+
+//Live Skull
+lskla = "lskla"
+{
+	Scale = 0.4
+	AngleOffset = 180
+}
+//-------------------LIGHTS-----------------
+
+//Small Candle
+canda = "canda"
+{
+	Scale = 1.6
+}
+
+candb = "candb"
+{
+	Scale = 1.6
+}
+
+//Candelabra
+cbraa = "cbraa"
+{
+	Scale = 1.5
+}
+
+cbrab = "cbrab"
+{
+	Scale = 1.5
+}
+
+//Tall Blue Torch
+ttrba = "tallstik"
+{
+	Scale = 2.0
+}
+
+//Tall Green Torch
+ttrbb = "tallstik"
+{
+	Scale = 2.0
+}
+
+//Tall Red Torch
+ttrbc = "tallstik"
+{
+	Scale = 2.0
+}
+
+//Short Torch
+strba = "strba"
+{
+	Scale = 1.0
+}
+
+//Broken Light
+colub = "colub"
+{
+	Scale = 0.5
+}
+
+//-----------------SPENT-AMMO---------------
+
+//Shell Casing
+cas2a = "cas2a"
+{
+	Scale = 0.5
+}
+
+cas2b = "cas2b"
+{
+	Scale = 0.5
+}
+
+cas2c = "cas2c"
+{
+	Scale = 0.5
+}
+
+cas2d = "cas2d"
+{
+	Scale = 0.5
+}
+
+cas2e = "cas2e"
+{
+	Scale = 0.5
+}
+
+cas2f = "cas2f"
+{
+	Scale = 0.5
+}
+
+cas2g = "cas2g"
+{
+	Scale = 0.5
+}
+
+cas2h = "cas2h"
+{
+	Scale = 0.5
+}
+
+cas2i = "cas2i"
+{
+	Scale = 0.5
+}
+
+cas2j = "cas2j"
+{
+	Scale = 0.5
+}
+
+cas2k = "cas2k"
+{
+	Scale = 0.5
+}
+
+cas2l = "cas2l"
+{
+	Scale = 0.5
+}
+
+cas2m = "cas2m"
+{
+	Scale = 0.5
+}
+
+cas2n = "cas2n"
+{
+	Scale = 0.5
+}
+
+//Bullet Casing
+cas3a = "cas3a"
+{
+	Scale = 0.5
+}
+
+cas3b = "cas3b"
+{
+	Scale = 0.5
+}
+
+cas3c = "cas3c"
+{
+	Scale = 0.5
+}
+
+cas3d = "cas3d"
+{
+	Scale = 0.5
+}
+
+cas3e = "cas3e"
+{
+	Scale = 0.5
+}
+
+cas3f = "cas3f"
+{
+	Scale = 0.5
+}
+
+cas3g = "cas3g"
+{
+	Scale = 0.5
+}
+
+cas3h = "cas3h"
+{
+	Scale = 0.5
+}
+
+cas3i = "cas3i"
+{
+	Scale = 0.5
+}
+
+cas3j = "cas3j"
+{
+	Scale = 0.5
+}
+
+cas3k = "cas3k"
+{
+	Scale = 0.5
+}
+
+cas3l = "cas3l"
+{
+	Scale = 0.5
+}
+
+cas3m = "cas3m"
+{
+	Scale = 0.5
+}
+//-----------------SWITCHES-----------------
+
+sw01a = "sw01a"
+{
+	AngleOffset = 270
+}
+
+sw01b = "sw01b"
+{
+	AngleOffset = 270
+}
+
+sw02a = "sw02a"
+{
+	AngleOffset = 270
+}
+
+sw02b = "sw02b"
+{
+	AngleOffset = 270
+}
+
+sw03a = "sw03a"
+{
+	AngleOffset = 270
+}
+
+sw03b = "sw03b"
+{
+	AngleOffset = 270
+}
+
+sw04a = "sw04a"
+{
+	AngleOffset = 270
+}
+
+sw04b = "sw04b"
+{
+	AngleOffset = 270
+}
+
+sw05a = "sw05a"
+{
+	AngleOffset = 270
+}
+
+sw05b = "sw05b"
+{
+	AngleOffset = 270
+}

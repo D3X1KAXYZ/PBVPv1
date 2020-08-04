@@ -1,0 +1,80 @@
+Actor GTech1VOX : GTechPillar1 replaces GTechPillar1
+ {
+  States
+  {
+  Spawn:		
+     TNT1 A 0 NODELAY A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	STAY:
+		GTEC A 1
+	GOTO SWITCH
+	Vanilla:
+		VTEC A 1
+		GOTO SWITCH
+	SWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	Goto Stay
+	
+	Death:
+	TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "DEATHVOX")
+     GTEC B 1
+     TNT1 A 0 A_PlaySound("PillarGlassBreak")
+	 TNT1 AAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,48,random(-2,2),random(-2,2),random(3,9),random(0,359),32)
+	 TNT1 AAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,68,random(-2,2),random(-2,2),random(3,9),random(0,359),32)	
+     GOTO DEADSWITCH
+	DeathVOX:
+     VTEC B 1
+     TNT1 A 0 A_PlaySound("PillarGlassBreak")
+	 TNT1 AAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,48,random(-2,2),random(-2,2),random(3,9),random(0,359),32)
+	 TNT1 AAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,68,random(-2,2),random(-2,2),random(3,9),random(0,359),32)	
+     GOTO DEADSWITCH
+	 DEADSWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "DEADVOX")
+		GOTO DEAD
+	DEAD:
+		GTEC B 1
+		GOTO DEADSWITCH
+	DEADVOX:
+		VTEC B 1
+		GOTO DEADSWITCH
+  }
+}
+
+Actor GTech2VOX : GTechPillar2 replaces GTechPillar2
+ {
+  States
+  {
+  Spawn:		
+     TNT1 A 0 NODELAY A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	STAY:
+		GTEC CD 1
+	GOTO SWITCH
+	Vanilla:
+		VTEC CD 1
+		GOTO SWITCH
+	SWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	Goto Stay
+  	Death:
+	TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "DEATHVOX")
+     GTEC E 1
+     TNT1 A 0 A_PlaySound("PillarGlassBreak")
+	 TNT1 AAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,48,random(-2,2),random(-2,2),random(3,9),random(0,359),32)
+	 TNT1 AAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,68,random(-2,2),random(-2,2),random(3,9),random(0,359),32)	
+     GOTO DEADSWITCH
+	DeathVOX:
+     VTEC E 1
+     TNT1 A 0 A_PlaySound("PillarGlassBreak")
+	 TNT1 AAAAAAAAAAAAAAAAAAAAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,48,random(-2,2),random(-2,2),random(3,9),random(0,359),32)
+	 TNT1 AAAA 0 A_SpawnItemEx("PillarGlassShard",0,0,68,random(-2,2),random(-2,2),random(3,9),random(0,359),32)	
+     GOTO DEADSWITCH
+	 DEADSWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "DEADVOX")
+		GOTO DEAD
+	DEAD:
+		GTEC EF 1
+		GOTO DEADSWITCH
+	DEADVOX:
+		VTEC EF 1
+		GOTO DEADSWITCH
+  }
+}

@@ -1,0 +1,76 @@
+Model SentryTurret
+{
+	Path "Models"
+	Model 0 "TURRET3_Head.MD3"
+	SKIN 0 "TURRET3_H.JPG"
+	OFFSET 10 0 0
+	ANGLEOFFSET 90
+	SCALE .5 .5 .5
+	FRAMEINDEX SENT A 0 0
+}
+Model SentryTripod
+{
+	Path "Models"
+	Model 0 "TURRET3_Tripod.MD3"
+	SKIN 0 "TURRET3_TRI.JPG"
+	OFFSET -6 0 0
+	ANGLEOFFSET 90
+	SCALE .5 .5 .5
+	FRAMEINDEX SENT C 0 0
+}
+Model HeavyMachinegun
+{
+	Path "Models"
+	Model 0 "HMGTURRET2.MD3"
+	SKIN 0 "HMGTURRET2.PNG"
+	OFFSET 0 0 0
+	ANGLEOFFSET 90
+	SCALE .5 .5 .5
+	Frameindex TTR1 A 0 0
+}
+/*Model SentryTurret
+{
+	Path "Models"
+	Model 0 "TURRET3_Tripod.MD3"
+	SKIN 0 "TURRET3_TRI.JPG"
+	OFFSET -20 -20 0
+	//SCALE 250.0 250.0 250.0
+	FRAMEINDEX SENT C 0 0
+}*/
+
+Model PlayerMech
+{
+	Path "models"
+	Model 0 "Mech.md3"
+	Skin 0 "mech.png"
+	angleoffset 90
+	offset 0 0 5
+	frameindex MECH A 0 0
+	frameindex MECH B 0 5
+	frameindex MECH C 0 10
+	frameindex MECH D 0 15
+	FRAMEINDEX MECH E 0 20
+	FRAMEINDEX MECH F 0 25
+	FRAMEINDEX MECH G 0 30
+	FRAMEINDEX MECH H 0 46
+}
+
+Model Mech
+{
+	Path "models"
+	Model 0 "Mech.md3"
+	Skin 0 "mech.png"
+	angleoffset 90
+	offset 0 0 5
+	frameindex MECH A 0 0
+}
+
+model MechBaseNotReal
+{
+	Path "models"
+	Model 0 "Mech.md3"
+	Skin 0 "mech.png"
+	angleoffset 90
+	offset 0 0 5
+	frameindex MECH A 0 0
+}

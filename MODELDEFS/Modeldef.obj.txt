@@ -1,0 +1,749 @@
+//OBJ
+//converted by The_Individualist
+Model SmartBulletKitBig
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4M07H.obj"
+	Skin 0 "4M07H.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4M07 H 0 0
+}
+Model SmartBulletKitBig
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4M07I.obj"
+	Skin 0 "4M07I.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4M07 I 0 0
+}
+Model LightArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM1A.obj"
+	Skin 0 "4RM1A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	//Pitchoffset 90 /*Pitch is back and front*/
+	//RollOffset 90
+	//offset 0 0 -32
+	
+	Frameindex 4RM1 A 0 0
+}
+Model LightArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM1B.obj"
+	Skin 0 "4RM1B.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM1 B 0 0
+}
+Model LightArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM1C.obj"
+	Skin 0 "4RM1C.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM1 C 0 0
+}
+Model HeavyArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM2A.obj"
+	Skin 0 "4RM2A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM2 A 0 0
+}
+Model HeavyArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM2B.obj"
+	Skin 0 "4RM2B.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM2 B 0 0
+}
+Model HeavyArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM2C.obj"
+	Skin 0 "4RM2C.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM2 C 0 0
+}
+Model MediumArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM3A.obj"
+	Skin 0 "4RM3A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM3 A 0 0
+}
+Model MediumArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM3B.obj"
+	Skin 0 "4RM3B.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM3 B 0 0
+}
+Model MediumArmor
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "4RM3C.obj"
+	Skin 0 "4RM3C.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 4RM3 C 0 0
+}
+Model Excavator
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "5DUNA.obj"
+	Skin 0 "5DUNA.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex 5DUN A 0 0
+}
+
+Model HellishMissileLauncher
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "FATBD.obj"
+	Skin 0 "FATBD.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex FATB D 0 0
+}
+Model DragonBreathShellsUpgrade
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DHELA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DHEL A 0 0
+}
+
+Model DragonBreathShellsUpgrade
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DHELB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DHEL B 0 0
+}
+Model DragonBreathShellsUpgrade
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DHELC.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DHEL C 0 0
+}
+Model DragonBreathShellsUpgrade
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DHELD.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DHEL D 0 0
+}
+Model DragonBreathShellsUpgrade
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DHELE.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DHEL E 0 0
+}
+Model EmptyHMGDrum
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DRM7A.obj"
+	Skin 0 "DRM7A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DRM7 A 0 0
+}
+Model EmptyASGDrum
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DRM8A.obj"
+	Skin 0 "DRM8A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DRM8 A 0 0
+}
+Model EmptyLMGMag
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "DRM9A.obj"
+	Skin 0 "DRM9A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex DRM9 A 0 0
+}
+Model EmptyCell
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "ECELA.obj"
+	Skin 0 "ECELA.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex ECEL A 0 0
+}
+Model EmptyClip
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "ECLIG.obj"
+	Skin 0 "ECLIG.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex ECLI G 0 0
+}
+Model EvilCandleVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "EYECA.obj"
+	Skin 0 "EYECA.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex EYEC A 0 0
+}
+Model CandlestickVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CANDA.obj"
+	Skin 0 "CANDA.pal.png"
+	SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CAND A 0 0
+}
+Model CandlestickVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CANDB.obj"
+	Skin 0 "CANDB.pal.png"
+	SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CAND B 0 0
+}
+Model CandelabraVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CBRAA.obj"
+	Skin 0 "CBRAA.pal.png"
+	SCALE 1.5 1.5 1.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CBRA A 0 0
+}
+Model CandelabraVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CBRAB.obj"
+	Skin 0 "CBRAB.pal.png"
+	SCALE 1.5 1.5 1.5
+	ANGLEOFFSET 90
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CBRA B 0 0
+}
+Model CandelabraVOX
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CBRAB.obj"
+	Skin 0 "CBRAB.pal.png"
+	SCALE 1.5 1.5 1.5
+	ANGLEOFFSET 90
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CBRA B 0 0
+}
+Model NewCell
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CELLA.obj"
+	Skin 0 "CELLA.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CELL A 0 0
+}
+Model NewCell
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CELLB.obj"
+	Skin 0 "CELLB.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CELL B 0 0
+}
+Model NewCell
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CELLC.obj"
+	Skin 0 "CELLC.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CELL C 0 0
+}
+Model NewCell
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CELLD.obj"
+	Skin 0 "CELLD.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CELL D 0 0
+}
+Model NewCell
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CELLE.obj"
+	Skin 0 "CELLE.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CELL E 0 0
+}
+
+Model NewClip
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CLIPA.obj"
+	Skin 0 "CLIPA.pal.png"
+	SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 90
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CLIP A 0 0
+}
+//-------------------------------------col4a.zip
+Model EmptyClipMP40
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CLP4G.obj"
+	Skin 0 "CLP4G.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CLP4 G 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKA.obj"
+	Skin 0 "CMPKA.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK A 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKB.obj"
+	Skin 0 "CMPKB.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK B 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKC.obj"
+	Skin 0 "CMPKC.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK C 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKD.obj"
+	Skin 0 "CMPKD.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK D 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKE.obj"
+	Skin 0 "CMPKE.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK E 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKF.obj"
+	Skin 0 "CMPKF.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK F 0 0
+}
+Model CombatBackpack
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "CMPKG.obj"
+	Skin 0 "CMPKG.pal.png"
+	//SCALE 1.6 1.6 1.6
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex CMPK G 0 0
+}
+Model TallGreenColumn
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "COL1A.obj"
+	Skin 0 "COL1A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex COL1 A 0 0
+}
+Model ShortGreenColumn
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "COL2A.obj"
+	Skin 0 "COL2A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex COL2 A 0 0
+}
+Model TallRedColumn
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "COL3A.obj"
+	Skin 0 "COL3A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex COL3 A 0 0
+}
+Model ShortRedColumn
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "COL4A.obj"
+	Skin 0 "COL4A.pal.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex COL4 A 0 0
+}
+Model HeartColumn
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "COL5A.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex COL5 A 0 0
+}
+Model HeartColumn
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "COL5B.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.DooM.png"
+	//SCALE 0.2 0.2 0.2
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex COL5 B 0 0
+}
+Model AmmoSuply
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "bpaka.obj"
+	Skin 0 "bpaka.pal.png"
+	SCALE 0.25 0.25 0.25
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex bpak A 0 0
+}
+Model NormalRocketBox_SS
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KA.obj"
+	Skin 0 "BR0KA.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K A 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KA.obj"
+	Skin 0 "BR0KA.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K A 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KB.obj"
+	Skin 0 "BR0KB.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K B 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KC.obj"
+	Skin 0 "BR0KC.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K C 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KD.obj"
+	Skin 0 "BR0KD.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K D 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KE.obj"
+	Skin 0 "BR0KE.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K E 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KF.obj"
+	Skin 0 "BR0KF.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K F 0 0
+}
+Model SmartRocketBox
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BR0KG.obj"
+	Skin 0 "BR0KG.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BR0K G 0 0
+}
+
+Model BurningBarrel1
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BURBA.obj"
+	Skin 0 "BURBA.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BURB A 0 0
+}
+Model BurningBarrel1
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BURBA.obj"
+	Skin 0 "BURBA.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BURB B 0 0
+}
+Model BurningBarrel1
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "BURBA.obj"
+	Skin 0 "BURBA.pal.png"
+	SCALE 0.5 0.5 0.5
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex BURB C 0 0
+}

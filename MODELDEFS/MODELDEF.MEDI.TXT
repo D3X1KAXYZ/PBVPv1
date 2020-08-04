@@ -1,0 +1,309 @@
+/*Global references  0,T,t,c,c,c,0,0,0,0,0
+//Path "Models/OBJ/TheIndividualist"
+//Path "GlobalPals"
+//"Global.Med.png" <medkits pal 1(index 15=red) 
+//"Global.DooM.png" <true Doom pallete
+//"Doompal.png" <false
+//"Global.pal0.png" <MV pal 0
+//"Global.pal1.png" <MV pal 1
+Model HasteSphere
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEGAA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.pal0.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEGA A 0 0
+}*/
+//SmartMedikitWhite: MEDWA-G
+//NormalMedikitWhite: MEDWA
+//Stim5White: MSTWA
+//NanoStim: NANOA-D
+//SmartMedipackWhite: MDPWA-G
+//NormalMedipackWhite: MDPWA
+//StimkitGreen: PME2A
+//StimkitWhite: PMW2A
+//NormalStimkitGreen: PME2A
+//NormalStimkitWhite: PMW2A
+//SmartStimkitBoxGreen: M4DIA-E
+//SmartStimkitBoxWhite: M4DWA-E
+//NormalStimkitBoxGreen: M4DIA
+//NormalStimkitBoxWhite: M4DWA
+//StimpackGreen: ST1MA
+//StimpackWhite: ST1WA
+
+
+Model NormalMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI A 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI A 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI B 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIC.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI C 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDID.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI D 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIE.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI E 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIF.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI F 0 0
+}
+
+Model SmartMedikitGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDIG.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDI G 0 0
+}
+
+Model NormalMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP A 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP A 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPB.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP B 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPC.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP C 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPD.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP D 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPE.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP E 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPF.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP F 0 0
+}
+
+Model SmartMedipackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MEDPG.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MEDP G 0 0
+}
+
+Model Stim5Green
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "MSTIA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex MSTI A 0 0
+}
+
+Model StimpackGreen
+{
+	Path "Models/OBJ/TheIndividualist"
+	Model 0 "ST1MA.obj"
+	Path "GlobalPals"
+	Skin 0 "Global.Med.png"
+	SCALE 0.25 0.25 0.25
+	//ZOffset 24.0
+	//ANGLEOFFSET 180
+	//ROTATING
+	//Rotation-speed 5
+	
+	Frameindex ST1M A 0 0
+}

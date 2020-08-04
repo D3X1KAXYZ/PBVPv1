@@ -1,0 +1,139 @@
+//-----------------------------NormalClipBox
+AMMOA="Voxels/CLIPS/AMMOA.kvx"{
+	scale = .25
+	spin = 45
+}
+//-----------------------------Rocket
+ROCKA="Voxels/CLIPS/ROCKA.kvx"{SPIN = 45}
+//-----------------------------NormalBulletKitBig
+4M0KA = "Voxels/CLIPS/4M0KA.kvx"{SCALE = 0.2}
+//-----------------------------EmptyClipMP40
+CLP4G = "Voxels/CLIPS/CLP4G.kvx"{}
+//-----------------------------EmptyClip
+ECLIG = "Voxels/CLIPS/ECLIG.kvx"{SCALE = 0.2}
+//-----------------------------NewClip
+CLIPA = "Voxels/CLIPS/CLIPA.kvx"{SCALE = 0.1}
+//-----------------------------EmptyCell
+ECELA = "Voxels/CLIPS/ECELA.kvx"{SCALE = 0.2}
+//-----------------------------NewCell
+CELLA = "Voxels/CLIPS/CELLA.kvx"{SCALE = 0.2}
+CELLB = "Voxels/CLIPS/CELLB.kvx"{SCALE = 0.2}
+CELLC = "Voxels/CLIPS/CELLC.kvx"{SCALE = 0.2}
+CELLD = "Voxels/CLIPS/CELLD.kvx"{SCALE = 0.2}
+CELLE = "Voxels/CLIPS/CELLE.kvx"{SCALE = 0.2}
+//-----------------------------SmartExcavatorChargeBox
+LH3GA = "Voxels/CLIPS/LH3GA.kvx"{SCALE = 0.5}
+LH3GB = "Voxels/CLIPS/LH3GB.kvx"{SCALE = 0.5}
+LH3GC = "Voxels/CLIPS/LH3GC.kvx"{SCALE = 0.5}
+LH3GD = "Voxels/CLIPS/LH3GD.kvx"{SCALE = 0.5}
+LH3GE = "Voxels/CLIPS/LH3GE.kvx"{SCALE = 0.5}
+LH3GF = "Voxels/CLIPS/LH3GF.kvx"{SCALE = 0.5}
+LH3GG = "Voxels/CLIPS/LH3GG.kvx"{SCALE = 0.5}
+//-----------------------------SmartSpecialGrenadeBox
+LPH9A = "Voxels/CLIPS/LPH9A.kvx"{SCALE = 0.5}
+LPH9B = "Voxels/CLIPS/LPH9B.kvx"{SCALE = 0.5}
+LPH9C = "Voxels/CLIPS/LPH9C.kvx"{SCALE = 0.5}
+LPH9D = "Voxels/CLIPS/LPH9D.kvx"{SCALE = 0.5}
+LPH9E = "Voxels/CLIPS/LPH9E.kvx"{SCALE = 0.5}
+LPH9F = "Voxels/CLIPS/LPH9F.kvx"{SCALE = 0.5}
+LPH9G = "Voxels/CLIPS/LPH9G.kvx"{SCALE = 0.5}
+LPH9H = "Voxels/CLIPS/LPH9H.kvx"{SCALE = 0.5}
+LPH9I = "Voxels/CLIPS/LPH9I.kvx"{SCALE = 0.5}
+//-----------------------------SmartShellBoxBig
+LSBXA = "Voxels/CLIPS/LSBXA.kvx"{SCALE = 0.25}
+LSBXB = "Voxels/CLIPS/LSBXB.kvx"{SCALE = 0.25}
+LSBXC = "Voxels/CLIPS/LSBXC.kvx"{SCALE = 0.25}
+LSBXD = "Voxels/CLIPS/LSBXD.kvx"{SCALE = 0.25}
+LSBXE = "Voxels/CLIPS/LSBXE.kvx"{SCALE = 0.25}
+LSBXF = "Voxels/CLIPS/LSBXF.kvx"{SCALE = 0.25}
+LSBXG = "Voxels/CLIPS/LSBXG.kvx"{SCALE = 0.25}
+LSBXH = "Voxels/CLIPS/LSBXH.kvx"{SCALE = 0.25}
+LSBXI = "Voxels/CLIPS/LSBXI.kvx"{SCALE = 0.25}
+LSBXJ = "Voxels/CLIPS/LSBXJ.kvx"{SCALE = 0.25}
+//-----------------------------shells
+SHELA = "Voxels/CLIPS/SHELA.kvx"{SCALE = 0.2}
+//-----------------------------2Shells
+SH3LA = "Voxels/CLIPS/SH3LA.kvx"{SCALE = 0.125}
+SH3LB = "Voxels/CLIPS/SH3LB.kvx"{SCALE = 0.125}
+SH3LC = "Voxels/CLIPS/SH3LC.kvx"{SCALE = 0.125}
+SH3LD = "Voxels/CLIPS/SH3LD.kvx"{SCALE = 0.125}
+SH3LE = "Voxels/CLIPS/SH3LE.kvx"{SCALE = 0.125}
+SH3LF = "Voxels/CLIPS/SH3LF.kvx"{SCALE = 0.125}
+SH3LG = "Voxels/CLIPS/SH3LG.kvx"{SCALE = 0.125}
+//-----------------------------NormalBulletKitBig
+4M0KA = "Voxels/CLIPS/4M0KA.kvx"{SCALE = 0.2}
+//-----------------------------SmartBulletKitBig
+4M07A = "Voxels/CLIPS/4M07A.kvx"{SCALE = 0.2}
+4M07B = "Voxels/CLIPS/4M07B.kvx"{SCALE = 0.2}
+4M07C = "Voxels/CLIPS/4M07C.kvx"{SCALE = 0.2}
+4M07D = "Voxels/CLIPS/4M07D.kvx"{SCALE = 0.2}
+4M07E = "Voxels/CLIPS/4M07E.kvx"{SCALE = 0.2}
+4M07F = "Voxels/CLIPS/4M07F.kvx"{SCALE = 0.2}
+4M07G = "Voxels/CLIPS/4M07G.kvx"{SCALE = 0.2}
+4M07H = "Voxels/CLIPS/4M07H.kvx"{SCALE = 0.2}
+4M07I = "Voxels/CLIPS/4M07I.kvx"{SCALE = 0.2}
+//-----------------------------SmartBulletKit
+AMO7A = "Voxels/CLIPS/AMO7A.kvx"{SCALE = 0.2}
+AMO7B = "Voxels/CLIPS/AMO7B.kvx"{SCALE = 0.2}
+AMO7C = "Voxels/CLIPS/AMO7C.kvx"{SCALE = 0.2}
+AMO7D = "Voxels/CLIPS/AMO7D.kvx"{SCALE = 0.2}
+AMO7E = "Voxels/CLIPS/AMO7E.kvx"{SCALE = 0.2}
+//-----------------------------SmartClipBox
+AMM0A = "Voxels/CLIPS/AMM0A.kvx"{SCALE = 0.2}
+AMM0B = "Voxels/CLIPS/AMM0B.kvx"{SCALE = 0.2}
+AMM0C = "Voxels/CLIPS/AMM0C.kvx"{SCALE = 0.2}
+AMM0D = "Voxels/CLIPS/AMM0D.kvx"{SCALE = 0.2}
+AMM0E = "Voxels/CLIPS/AMM0E.kvx"{SCALE = 0.2}
+AMM0F = "Voxels/CLIPS/AMM0F.kvx"{SCALE = 0.2}
+AMM0G = "Voxels/CLIPS/AMM0G.kvx"{SCALE = 0.2}
+//-----------------------------NormalClipBoxBig
+8CLPA = "Voxels/CLIPS/8CLPA.KVX"{SCALE = 0.25}
+//-----------------------------SmartClipBoxBig
+8CL9A = "Voxels/CLIPS/8CL9A.kvx"{SCALE = 0.2}
+8CL9B = "Voxels/CLIPS/8CL9B.kvx"{SCALE = 0.2}
+8CL9C = "Voxels/CLIPS/8CL9C.kvx"{SCALE = 0.2}
+8CL9D = "Voxels/CLIPS/8CL9D.kvx"{SCALE = 0.2}
+8CL9E = "Voxels/CLIPS/8CL9E.kvx"{SCALE = 0.2}
+8CL9F = "Voxels/CLIPS/8CL9F.kvx"{SCALE = 0.2}
+8CL9G = "Voxels/CLIPS/8CL9G.kvx"{SCALE = 0.2}
+8CL9H = "Voxels/CLIPS/8CL9H.kvx"{SCALE = 0.2}
+8CL9I = "Voxels/CLIPS/8CL9I.kvx"{SCALE = 0.2}
+8CL9J = "Voxels/CLIPS/8CL9J.kvx"{SCALE = 0.2}
+//-----------------------------NormalShellBox
+SBOXA = "Voxels/CLIPS/SBOXA.kvx"{SCALE = 0.3}
+//-----------------------------SmartShellBox
+SB0XA = "Voxels/CLIPS/SB0XA.kvx"{SCALE = 0.3}
+SB0XB = "Voxels/CLIPS/SB0XB.kvx"{SCALE = 0.3}
+SB0XC = "Voxels/CLIPS/SB0XC.kvx"{SCALE = 0.3}
+SB0XD = "Voxels/CLIPS/SB0XD.kvx"{SCALE = 0.3}
+SB0XE = "Voxels/CLIPS/SB0XE.kvx"{SCALE = 0.3}
+SB0XF = "Voxels/CLIPS/SB0XF.kvx"{SCALE = 0.3}
+SB0XG = "Voxels/CLIPS/SB0XG.kvx"{SCALE = 0.3}
+SB0XH = "Voxels/CLIPS/SB0XH.kvx"{SCALE = 0.3}
+//-----------------------------Box of Rockets
+BR0KA = "Voxels/CLIPS/BR0KA.kvx"{SCALE = 0.5}
+BR0KB = "Voxels/CLIPS/BR0KB.kvx"{SCALE = 0.5}
+BR0KC = "Voxels/CLIPS/BR0KC.kvx"{SCALE = 0.5}
+BR0KD = "Voxels/CLIPS/BR0KD.kvx"{SCALE = 0.5}
+BR0KE = "Voxels/CLIPS/BR0KE.kvx"{SCALE = 0.5}
+BR0KF = "Voxels/CLIPS/BR0KF.kvx"{SCALE = 0.5}
+BR0KG = "Voxels/CLIPS/BR0KG.kvx"{SCALE = 0.5}
+//-----------------------------NormalCellPack
+YELPA = "Voxels/CLIPS/YELPA.kvx"{SCALE = 0.2}
+YELPB = "Voxels/CLIPS/YELPB.kvx"{SCALE = 0.2}
+YELPC = "Voxels/CLIPS/YELPC.kvx"{SCALE = 0.2}
+YELPD = "Voxels/CLIPS/YELPD.kvx"{SCALE = 0.2}
+//-----------------------------SmartCellPack
+Y3LPA = "Voxels/CLIPS/Y3LPA.kvx"{SCALE = 0.2}
+Y3LPB = "Voxels/CLIPS/Y3LPB.kvx"{SCALE = 0.2}
+Y3LPC = "Voxels/CLIPS/Y3LPC.kvx"{SCALE = 0.2}
+Y3LPD = "Voxels/CLIPS/Y3LPD.kvx"{SCALE = 0.2}
+Y3LPE = "Voxels/CLIPS/Y3LPE.kvx"{SCALE = 0.2}
+Y3LPF = "Voxels/CLIPS/Y3LPF.kvx"{SCALE = 0.2}
+Y3LPG = "Voxels/CLIPS/Y3LPG.kvx"{SCALE = 0.2}
+//-----------------------------BulletCartridge
+MBLKA = "Voxels/CLIPS/MBLKA.kvx"{SCALE = 0.2}
+
+9TCKA="Voxels/ITEMS/GRENADE/9TCKA.kvx"{Scale = 0.2}//grenade box
+9TCKB="Voxels/ITEMS/GRENADE/9TCKB.kvx"{Scale = 0.2}//grenade box
+100MB="Voxels/ITEMS/UEC/100MB.kvx"{SCALE = 0.5}//UEC

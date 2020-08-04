@@ -1,0 +1,124 @@
+Actor BDECChairWoodVOX: BDdestroyabledecorative REPLACES BDECChairWood
+{
+Health 50
+Scale 1.0
+Height 40
++PUSHABLE
+Mass 200
+
+states
+	{
+	Spawn:
+	    TNT1 A 0 NODELAY A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	STAY:
+		CHR1 A 1
+		GOTO SWITCH
+	Vanilla:
+		VHR1 A 1
+		GOTO SWITCH
+	SWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+		GOTO STAY
+	Death:
+		TNT1 AAA 0 A_CustomMissile ("BrownCloud", 15, 0, random (0, 360), 2, random (0, 360))
+		TNT1 AA 0 A_CustomMissile ("WoodParticle", 15, 0, random (0, 360), 2, random (0, 160))
+		TNT1 AA 0 A_CustomMissile ("WoodParticleSmall", 15, 0, random (0, 360), 2, random (0, 160))
+		TNT1 AA 0 A_CustomMissile ("WoodParticleTiny", 15, 0, random (0, 360), 2, random (0, 160))
+		TNT1 AA 0 A_CustomMissile ("WoodParticleBig", 15, 0, random (0, 360), 2, random (0, 160))
+		TNT1 A 0 A_PlaySound("DSBRK2")
+		TNT1 A 0
+		Stop
+	}
+}
+Actor BDECChairModernVOX: BDECChairWoodVOX REPLACES BDECChairModern
+{
+states
+	{
+	Spawn:
+	    TNT1 A 0 NODELAY A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	STAY:
+		CHR2 A 1
+		GOTO SWITCH
+	Vanilla:
+		VHR2 A 1
+		GOTO SWITCH
+	SWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+		GOTO STAY
+	Death:
+		TNT1 AAA 0 A_CustomMissile ("MetalShard1", 5, 0, random (0, 360), 2, random (30, 160))
+		TNT1 AAA 0 A_CustomMissile ("MetalShard2", 25, 0, random (0, 360), 2, random (30, 160))
+		TNT1 AAA 0 A_CustomMissile ("MetalShard3", 35, 0, random (0, 360), 2, random (30, 160))
+		TNT1 A 0 A_PlaySound("DSBRK2")
+		TNT1 A 0
+		Stop
+	}
+}
+Actor BDECWoodTableVox: BDECChairWoodVOX REPLACES BDECWoodTable
+{
+Health 50
+Scale 1.0
+Height 32
++PUSHABLE
++ACTLIKEBRIDGE
+Mass 6000
+states
+	{
+	Spawn:
+		TNT1 A 0 NODELAY A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+		STAY:
+		TABL A 1
+		GOTO SWITCH
+	Vanilla:
+		VTBL A 1
+		GOTO SWITCH
+	SWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+		GOTO STAY
+	}
+}
+
+ACTOR BDECAlarmVOX : BDdecorationBase2 REPLACES BDECAlarm
+{
+Radius 8
+Height 12
+Scale 0.6
+Mass 9999999
+Health 25
++SPAWNCEILING
++NOGRAVITY
++FLOAT
++DONTFALL
+States
+{
+ Spawn:
+ TNT1 A 0
+ TNT1 A 0 ThrustThingZ(0,955,0,1)
+ TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+	STAY:	
+		SPDE UUUUVVVVWWWWXXXX 1 BRIGHT A_SetAngle(angle -15)
+		SPDE UUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXX 1 BRIGHT A_SetAngle(angle -15)
+		TNT1 A 0 A_PlaySound ("BDALARM", 1)
+		GOTO switch
+	VANILLA:
+ VPDE UUUUVVVVWWWWXXXX 1 BRIGHT A_SetAngle(angle -15)
+ VPDE UUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXXUUUUVVVVWWWWXXXX 1 BRIGHT A_SetAngle(angle -15)
+ TNT1 A 0 A_PlaySound ("BDALARM", 1)
+ GOTO SWITCH
+ 	SWITCH:
+		TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "Vanilla")
+		GOTO STAY
+ 
+   Death:
+    TNT1 A 0
+    TNT1 A 0 A_StopSound(1)
+    TNT1 A 0 A_SpawnItem("BreakingLamp")
+	DEADSWITCH:
+	TNT1 A 0 A_JumpIf(Getcvar("V5_DRAWBDVOX")!=1, "DEADVOX")
+	SPDF A 1
+	LOOP
+	DEADVOX:
+		VPDF A 1
+		GOTO DEADSWITCH
+}
+}

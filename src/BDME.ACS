@@ -1,0 +1,15 @@
+#include "zcommon.acs"
+
+Script "BDME_SWITCH" (VOID) NET
+{
+IF (GetCvar("V5_DRAWBDECVOX") == 1)
+{
+SetCVar("V5_DRAWBDECVOX", 0);
+Log(s:"BDEC VOXELS OFF"); 
+}
+ELSE 
+{
+SetCVar("V5_DRAWBDECVOX", 1);
+Log(s:"BDEC VOXELS ON");
+}
+}

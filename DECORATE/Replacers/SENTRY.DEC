@@ -1,0 +1,145 @@
+Actor Sentryturret : SwitchableDecoration replaces SentryGun 30031
+{
+  obituary "%o was ventilated by an auto-sentry."
+  health 300
+  radius 20
+  height 56
+  mass 100000
+  speed 0
+  DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
+	DamageFactor "BlueBloodSplasher", 0.0
+    DamageFactor "BlueSuperBloodSplasher", 0.0
+DamageFactor "bloodsplasher", 0.0    DamageFactor "tinybloodsplasher", 0.0    DamageFactor "superbloodsplasher", 0.0    DamageFactor "smallbloodsplasher", 0.0
+    DamageFactor "Fatality", 5.0
+    DamageFactor "Shrapnel", 0.4
+  MaxTargetRange 2048
+  attacksound "weapons/minigunfire2"
+  MONSTER
+  +FLOORCLIP
+  +FRIENDLY
+  +NOBLOOD
+  +USESPECIAL
+	Activation THINGSPEC_Activate
+  +QUICKTORETALIATE
+  +LOOKALLAROUND
+  +NEVERRESPAWN
+  +STANDSTILL
+  +MISSILEMORE
+  +MISSILEEVENMORE
+  states
+  {
+  Spawn:
+	TNT1 A 1
+	SENT A 1 A_SpawnItemEx("SentryTripod",SXF_SETMASTER) 
+	Searching:
+	TNT1 A 0 A_GiveInventory("TargetIsAMarine", 1)
+    SENT AAAAAAAAAA 1 A_Look
+	TNT1 A 0 A_SetAngle(angle + 45)
+    SENT A 0 A_PlaySound ("SENSCAN")
+    SENT AAAAAAAAAA 1 A_Look
+	TNT1 A 0 A_SetAngle(angle - 45)
+    SENT AAAAAAAAAA 1 A_Look
+	TNT1 A 0 A_SetAngle(angle - 45)
+    SENT A 0 A_PlaySound ("SENSCAN")
+    SENT AAAAAAAAAA 1 A_Look
+	TNT1 A 0 A_SetAngle(angle + 45)
+    loop
+  ForgetTarget:
+	TNT1 A 0 A_ClearTarget
+  See:
+    SENT AAAAAAAAAAAAAAAA 1 A_Chase
+    SENT A 0 A_PlaySound ("SENSCAN")
+    loop
+	
+	
+	Active:
+        TNT1 A 0 A_RemoveChildren(true,RMVF_EVERYTHING)
+		TNT1 A 0 ACS_NAMEDEXECUTE("FOLDINGSENTRY",0)
+        TNT1 A 0 A_NoBlocking
+		TNT1 A 0 A_ChangeFLag ("SHOOTABLE", 0)
+		TNT1 A 0 A_ChangeFLag ("SOLID", 0)
+        //TNT1 A 0 A_SpawnItem("Ally")
+		//TNT1 A 0 A_GiveToTarget("SentryBox", 1)
+		TNT1 A 0 A_SpawnItemEx ("SentryBox",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION,0)
+        TNT1 A 0
+        Stop
+	
+  Missile:
+    SENT A 0 A_PlaySound ("SENSEE", 2)
+    SENT AAAAAAAAAAAA 1 A_FaceTarget
+  MissileContinue:
+	TNT1 A 0 A_JumpIfInTargetInventory("TargetIsAMarine", 1, "ForgetTarget")
+
+    SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, 6)
+    SENT A 1 bright A_CustomMissile("SentryTracer1", 42, 6, random(-4, 4), 0) //A_CPosAttack
+	
+	SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, -6)
+    SENT A 1 bright A_CustomMissile("SentryTracer2", 42, -6, random(-4, 4), 0) //A_CPosAttack
+	
+	
+    SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, 6)
+    SENT A 1 bright A_CustomMissile("SentryTracer3", 42, 6, random(-4, 4), 0) //A_CPosAttack
+	
+	SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, -6)
+    SENT A 1 bright A_CustomMissile("SentryTracer1", 42, -6, random(-4, 4), 0) //A_CPosAttack
+	
+	SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, 6)
+    SENT A 1 bright A_CustomMissile("SentryTracer2", 42, 6, random(-4, 4), 0) //A_CPosAttack
+	
+	SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, -6)
+    SENT A 1 bright A_CustomMissile("SentryTracer3", 42, -6, random(-4, 4), 0) //A_CPosAttack
+	
+	
+    SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, 6)
+    SENT A 1 bright A_CustomMissile("SentryTracer1", 42, 6, random(-4, 4), 0) //A_CPosAttack
+	
+	SENT A 2 A_FaceTarget
+	TNT1 A 0 A_Playsound("weapons/gatlingfire")
+    TNT1 A 0 A_CustomMissile("MarineMuzzle1", 42, -6)
+    SENT A 1 bright A_CustomMissile("SentryTracer2", 42, -6, random(-4, 4), 0) //A_CPosAttack
+	
+    SENT A 0 A_MonsterRefire(32, "See")
+    Goto MissileContinue
+	
+  Death:
+	//TNT1 A 2 A_KILLCHILDREN
+    TNT1 A 1 A_PlaySoundEx ("Sentry/Death", "SoundSlot5")
+	TNT1 A 0 A_NoBlocking
+	TNT1 A 0 A_ChangeFlag("USESPECIAL", 0)
+    TNT1 A 0 A_PlaySoundEx ("weapons/rocklx", "SoundSlot6")
+    TNT1 A 0 A_SpawnItemEx ("BarrelKaboom",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION,0)
+	TNT1 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA 8 A_CustomMissile ("PlasmaSmoke", 24, 0, random (0, 180), 2, random (0, 180))
+	TNT1 A -1 
+  FadeOut:
+    TNT1 A 2 A_FadeOut (0.1)
+    loop
+  }
+}
+
+Actor SentryTripod
+{
+//+nogravity
+states
+{
+spawn:
+	TNT1 A 0
+	TNT1 A 0 ACS_NAMEDEXECUTE("SENTRYUP",0)
+	STAY:
+	SENT C 1
+	LOOP
+	}
+}
